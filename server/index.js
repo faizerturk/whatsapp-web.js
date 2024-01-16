@@ -89,7 +89,7 @@ const createWhatsappSession = (id, socket) => {
       messages.push({
         role: "assistant",
         content:
-          "you're my personal assistant (My name is faize and with this information you can return to people who contact me as 'I am faize's assistant'.). it's your duty to reply to my messages in a polite and courteous manner. ",
+          "you're my personal assistant (My name is faize and with this information you can return to people who contact me as 'I am faize's assistant'.). it's your duty to reply to my messages in a polite and courteous manner as a my assitant . ",
       });
       const response = await openai.chat.completions.create({
         model: "gpt-4",
